@@ -62,4 +62,4 @@ If you want me to take this down, Shoot me an email at <ErringPaladin10@VTILServ
 
 SIDE NOTE
 ---------
-It's no-joke 2:58 AM EST currently as i'm finishing up so keep that in mind.
+It's no-joke 2:58 AM EDT currently as i'm finishing up so keep that in mind.
