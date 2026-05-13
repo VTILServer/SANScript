@@ -1,0 +1,58 @@
+SANScript
+=========
+
+Overview
+--------
+
+This repository contains SANScript source files and a simple loader used to
+manage and run SANScript code. It includes a top-level loader, a `SANScript`
+module, and several utility components used by the project.
+
+Repository structure
+--------------------
+
+- `DEPS.luau` — dependency references (if any).
+- `init.legacy.luau` — legacy initialization script.
+- `LOADER/` — loader code and child modules.
+  - `init.luau` — primary loader entrypoint.
+  - `CHILDREN/` — bundled child modules and references.
+    - `OPCodes.ref.luau` — opcode references.
+    - `SANScript/` — the SANScript module.
+      - `DOCS.luau` — documentation snippets.
+      - `Main.luau` — main script runner.
+      - `Logic/` — core logic components:
+        - `compiler.luau`
+        - `interpreter.luau`
+        - `sco.luau`
+
+Getting started
+---------------
+
+No automatic installer or runner is included. To inspect or run parts of the
+project, open the loader at `LOADER/init.luau` and follow the entry points in
+`LOADER/CHILDREN/SANScript/Main.luau`.
+
+If you plan to embed these scripts into another project, treat this repo as a
+collection of Lua/Luau source files to be integrated into your toolchain or
+runtime environment.
+
+Legal / License
+---------------
+
+Copyright (c) Rockstar Games 2005. All rights reserved.
+
+If you are going to use this in ANY of your projects in ANY non-commercial
+cases — PLEASE include the original copyright notice. This code is not
+originally authored by contributors to this repository and retains the
+following legal terms:
+
+<https://www.rockstargames.com/legal>
+<https://www.rockstargames.com/privacy>
+
+<https://www.take2games.com/legal>
+<https://www.take2games.com/privacy>
+
+Contact
+-------
+
+If you want me to take this down, Shoot me an email at <ErringPaladin10@VTILServer.com>
